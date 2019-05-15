@@ -1,0 +1,6 @@
+compiler: gcc
+language: c
+
+script:
+  - make all
+  - ./hello

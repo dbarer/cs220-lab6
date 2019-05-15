@@ -1,6 +1,10 @@
 compiler: gcc
 language: c
 
+branches:
+  only:
+    - master
+
 script:
   - make all
   - ./hello
